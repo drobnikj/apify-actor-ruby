@@ -1,0 +1,11 @@
+{
+	"name": "apify-act-ruby",
+	"actId": "drobnikj/apify-act-ruby",
+	"version": {
+		"versionNumber": "0.1",
+		"buildTag": "latest",
+		"envVars": [],
+		"sourceType": "TARBALL",
+		"tarballUrl": "https://api.apify.com/v2/key-value-stores/6XZutKX8JEQnXctEF/records/apify-act-ruby-0.1.zip?disableRedirect=true"
+	}
+}
