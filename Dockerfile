@@ -1,5 +1,5 @@
 # Use an official Ruby runtime
-FROM ruby:2.6
+FROM ruby:2.6.3
 
 # Set the working directory to /app
 WORKDIR /app
