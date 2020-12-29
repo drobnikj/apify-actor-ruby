@@ -4,7 +4,7 @@
   "schemaVersion": 1,
   "properties": {
     "url": {
-      "title": "Url",
+      "title": "URL",
       "type": "string",
       "description": "Url of page you want to get title.",
       "editor": "textfield",
