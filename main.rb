@@ -20,10 +20,10 @@ def main
   puts "Openning #{input['url']}"
   html = Faraday.get(input['url'])
   doc = Nokogiri::HTML(html.body)
-  titleNode = doc.css('title').first
+  title_node = doc.css('title').first
 
   # Saves output into default actor key-value store
-  record = { 'title' => titleNode.content, 'url' => input['url'] }
+  record = { 'title' => title_node.content, 'url' => input['url'] }
   puts "Saving #{record} into store"
   APIFY_KEY_VALUE_STORE.put("key-value-stores/#{DEFAULT_STORE_ID}/records/OUTPUT", record.to_json, { 'Content-Type' => 'application/json' })
   puts "Done!"
