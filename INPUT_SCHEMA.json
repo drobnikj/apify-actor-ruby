@@ -1,0 +1,14 @@
+{
+  "title": "Input schema for the actor.",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "url": {
+      "title": "Url",
+      "type": "string",
+      "description": "Url of page you want to get title.",
+      "editor": "textfield"
+    }
+  },
+  "required": ["url"]
+}

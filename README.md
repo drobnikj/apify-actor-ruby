@@ -1,3 +1,3 @@
-# apify-act-ruby
+# Apify Actor Ruby example
 
-This is example usage ruby code in [Apify Act](https://www.apify.com/).
+This is simple example usage Ruby code in [Apify Actor](https://www.apify.com/actors).
