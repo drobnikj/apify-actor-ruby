@@ -1,5 +1,5 @@
-require "Nokogiri"
-require "Faraday"
+require "nokogiri"
+require "faraday"
 require "JSON"
 require "faraday_middleware"
 
