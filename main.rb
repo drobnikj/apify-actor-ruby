@@ -1,6 +1,6 @@
 require "nokogiri"
 require "faraday"
-require "JSON"
+require "json"
 require "faraday_middleware"
 
 APIFY_CLIENT = Faraday.new(
